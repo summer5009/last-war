@@ -1,0 +1,12 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.container {
+  width: 70dvw;
+  height: 70dvh;
+  border: 1px solid black;
+}
