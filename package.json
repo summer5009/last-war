@@ -9,13 +9,14 @@
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.0",
     "@fontsource/roboto": "^5.1.1",
-    "@mui/icons-material": "^6.4.4",
-    "@mui/material": "^6.4.4",
+    "@mui/material": "^5.10.0",
+    "@mui/x-data-grid": "^7.27.0",
+    "@mui/x-date-pickers": "^7.27.0",
     "@react-router/node": "^7.1.5",
     "@react-router/serve": "^7.1.5",
+    "axios": "^1.7.9",
+    "dayjs": "^1.11.13",
     "isbot": "^5.1.17",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
