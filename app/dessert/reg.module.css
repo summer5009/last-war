@@ -1,0 +1,11 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  height: 100dvh;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  padding: 1rem !important;
+}
