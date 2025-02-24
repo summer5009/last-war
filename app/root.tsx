@@ -7,6 +7,9 @@ import {
   ScrollRestoration,
 } from "react-router";
 
+import { LocalizationProvider } from "@mui/x-date-pickers";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+
 import type { Route } from "./+types/root";
 import "./app.css";
 
@@ -44,7 +47,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
-        {children}
+        <LocalizationProvider dateAdapter={AdapterDayjs}>
+          {children}
+        </LocalizationProvider>
         <ScrollRestoration />
         <Scripts />
       </body>
